@@ -5,6 +5,4 @@ import com.DevSuperior.IntJavaSpring.entities.Game;
 
 public interface GameRepository extends JpaRepository<Game, Long> {
 
-	
-	
 }
