@@ -7,8 +7,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.DevSuperior.IntJavaSpring.dto.GameDTO;
+import com.DevSuperior.IntJavaSpring.dto.GameListDTO;
 import com.DevSuperior.IntJavaSpring.dto.GameMinDTO;
 import com.DevSuperior.IntJavaSpring.entities.Game;
+import com.DevSuperior.IntJavaSpring.entities.GameList;
 import com.DevSuperior.IntJavaSpring.repositories.GameRepository;
 
 @Service
@@ -31,7 +33,5 @@ public class GameService {
 		List<GameMinDTO> dto = result.stream().map(x -> new GameMinDTO(x)).toList();
 		return dto;
 	}
-	
-	
 	
 }
