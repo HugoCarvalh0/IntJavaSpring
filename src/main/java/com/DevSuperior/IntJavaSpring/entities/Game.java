@@ -1,7 +1,6 @@
 package com.DevSuperior.IntJavaSpring.entities;
 
 import java.util.Objects;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,7 +14,7 @@ public class Game {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	private String title;
 	
 	@Column(name = "game_year")
