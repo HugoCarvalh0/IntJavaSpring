@@ -8,10 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.DevSuperior.IntJavaSpring.Projections.GameMinProjection;
 import com.DevSuperior.IntJavaSpring.dto.GameDTO;
-import com.DevSuperior.IntJavaSpring.dto.GameListDTO;
 import com.DevSuperior.IntJavaSpring.dto.GameMinDTO;
 import com.DevSuperior.IntJavaSpring.entities.Game;
-import com.DevSuperior.IntJavaSpring.entities.GameList;
 import com.DevSuperior.IntJavaSpring.repositories.GameRepository;
 
 @Service
